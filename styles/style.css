@@ -95,7 +95,8 @@ div.telegram {
 
 
 .image_size_sp {
-    width: 23%;
+    width: 160px;
+    height: 140px;
 }
 
 
@@ -110,53 +111,87 @@ div.telegram {
 }
 
 .Gide {
-
-    width: 700px;
     font-size: 16px;
-
     text-align: center;
+    width: 700px;
+    margin-left: 250px;
 }
 
-ol{
+.content_g {
+    border: double;
+    background:#E7D8D3;
+}
+
+ol {
     font-size: 17px;
 
 }
 
-.IMG_URL_DIABLO_CENTER{
+.IMG_URL_CENTER {
     text-align: center;
 
 
 }
-.IMG_DIABLO_SHUDOW{
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+.IMG_SHUDOW {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 3px;
     border: ridge;
-    width: 300px;
+    width: 350px;
+    height: 200px;
 }
 
-#GIDE_content{
+#GIDE_content {
     text-align: center;
     width: 700px;
 }
 
-.last{
+.last {
     background: black;
 }
-li{
-    margin-left: 10px;
-    float: center;
-}
+
 
 #races {
     width: 180px;
 }
 
-#rogue-im-link {
-}
 
 table, tr, td {
     text-align: left;
-    padding: 5px;
+    padding: 0px;
+}
+
+.rpg-im-link {
+    width: 285px;
+    height: 170px;
+}
+
+.select_Gaid {
+    border: double;
+    width: 1200px;
+    margin-left: 3px;
+    font-weight: 900;
+    font-size: 16px;
+    color: black;
+    border-radius: 5px;
 
 }
 
+.Select {
+    background-color: #FF4504;
+    height: 40px;
+    opacity: 0.7;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+.select_Gaid:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+.Gide{
+    border: dashed 1.5px;
+    height: auto;
+    width: 800px;
+}
