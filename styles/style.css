@@ -137,7 +137,7 @@ ol {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 3px;
     border: ridge;
-    width: 350px;
+    width: 320px;
     height: 200px;
 }
 
@@ -162,16 +162,16 @@ table, tr, td {
 }
 
 .rpg-im-link {
-    width: 285px;
-    height: 170px;
+    width: 250px;
+    height: 160px;
 }
 
 .select_Gaid {
     border: double;
     width: 1200px;
     margin-left: 3px;
-    font-weight: 900;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 14px;
     color: black;
     border-radius: 5px;
 
@@ -194,4 +194,20 @@ table, tr, td {
     border: dashed 1.5px;
     height: auto;
     width: 800px;
+}
+.topNubex {
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    border: groove;
+    width: 55px;
+    text-align: center;
+    height: 20px;
+    border-radius: 5px;
+    background-image: url(../media/jpg/but-01.jpg);
+}
+
+
+a{
+    text-decoration: none;
 }
